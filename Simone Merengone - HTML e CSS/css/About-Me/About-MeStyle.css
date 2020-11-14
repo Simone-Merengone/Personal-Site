@@ -1,0 +1,74 @@
+.error {
+    color: red;
+}
+
+.correct{
+    color: green;
+}
+
+/* 4K */
+@media only screen and (min-width: 2560px){
+    .Description{
+        padding-top: 90px;
+        width: 100%;
+        padding-left: 200px;
+        padding-bottom: 20px;
+    }
+}
+/*Between 4K and Laptop*/
+@media only screen and (max-width: 2559px) and (min-width: 1441px){
+    .Description{
+        padding-top: 90px;
+        width: 100%;
+        padding-left: 170px;
+        padding-right: 170px;
+        padding-bottom: 20px;
+
+    }
+}
+/* Laptop */
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+    .Description{
+        padding-top: 90px;
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 20px;
+    }
+}
+/*Between Laptop and Tablet*/
+@media only screen and (max-width: 1023px) and (min-width: 769px){
+    .Description{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 90px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+/* Tablet */
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .Description{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 90px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+/* Phones */
+@media only screen and (max-width: 425px){
+    .Description{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 90px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+
